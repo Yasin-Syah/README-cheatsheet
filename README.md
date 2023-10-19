@@ -17,25 +17,15 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
-
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
+- Tujuan proyek ini adalah untuk membuat open-source library tentang pengendalian Gree Smart Air Conditioners. Implementasi bergantung pada protokol berbasis JSON yang   
+  digunakan oleh unit-unit ini yang direkayasa ulang. Selain itu, aplikasi remote control tersedia untuk berbagai platform:
+  - Qt/C++ untuk Windows/macOS
+  - ObjectiveC/Cocoa untuk macOS
+  - Java untuk Android
+  - C# untuk DotNet Core
+  - Python 3 (PythonCLI/gree.py)
+- perusahaan biasanya menutup informasi terkait dengan bagaimana alat mereka bekerja. sementara itu, banyak pelajar ataupun orang umum yang ingin mempelajari bagaimana sebuah    program atau perangkat bekerja. salah satunya adalah aplikasi remote control yang dimiliki oleh perusahaan gree. oleh karena itu, proyek ini bertujuan sebagai bahan         
+  pembelajaran yang tersedia untuk umum tentang bagaimana sebuah aplikasi remote control pintar bekerja.
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
@@ -56,30 +46,26 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Proyek ini masih dalam proses pengerjaan tambahan yang berkelanjutan.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+Proyek ini terbilang masih tahap awal, sehingga banyak yang perlu ditambahkan. 
+diantaranya adalah:
+- Menerapkan kontrol perangkat dengan semua fitur unit AC (mode, suhu, dll.)
+- Menerapkan kueri status perangkat
+- Buat tampilan dasar untuk model perangkat
+- Menerapkan pengaturan perangkat awal (mengarahkan koneksi WiFi ke unit untuk mengatur SSID dan kata sandi AP WiFi rumah)
+- Pada tahap selanjutnya, kemampuan pembaruan firmware dapat ditambahkan
+- Opsi baris perintah dapat ditambahkan untuk dapat menggunakan aplikasi dari terminal
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
 
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
+## Referensi
+- pembahasan ini diambil dari [proyek gree remote](https://github.com/tomikaa87/gree-remote).
+- Template pembahasan dibuat oleh [@flynerdpl](https://www.flynerd.pl/)
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Dibuat oleh [Ahmad Yasin Firmansyah](https://www.instagram.com/yasin.syah_/) - boleh banget buat dihubungi :)
 
 
 <!-- Optional -->
